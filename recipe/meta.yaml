@@ -9,7 +9,7 @@ source:
   sha256: 87e600d3b16b97ed219c078681260639e77ef5a17c0e0dbdd5a302f99b4e34e1
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: "{{ PYTHON }} -m pip install . -vv"
 
@@ -30,8 +30,7 @@ about:
   home: https://github.com/takluyver/intreehooks
   license: MIT
   license_family: MIT
-  # https://github.com/takluyver/intreehooks/issues/1
-  # license_file: LICENSE
+  license_file: LICENSE
   summary: "Load a PEP 517 backend from inside the source tree"
 
 extra:
